@@ -15,5 +15,5 @@ RUN git clone https://github.com/fsimoes81/streamlit_docker_demo .
 RUN pip3 install -r requirements.txt
 
 ENTRYPOINT ["streamlit", "run"]
-CMD [ "app_ab_testing/streamlit_app.py"]
+CMD [ "./app_ab_testing/streamlit_app.py"]
 #, "--server.port=8501", "--server.address=0.0.0.0"]
