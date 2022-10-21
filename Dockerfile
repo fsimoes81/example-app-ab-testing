@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/fsimoes81/example-app-ab-testing .
+RUN git clone git@github.com:fsimoes81/example-app-ab-testing.git .
 
 RUN pip3 install -r requirements.txt
 
