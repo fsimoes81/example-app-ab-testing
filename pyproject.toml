@@ -6,8 +6,8 @@ authors = ["fsimoes81 <fabio.simoes@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "=3.8.13"
-scipy = "^1.9.2"
-streamlit = "^1.13.0"
+scipy = "=1.9.2"
+streamlit = "=1.13.0"
 
 [tool.poetry.dev-dependencies]
 

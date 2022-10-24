@@ -18,7 +18,7 @@ importlib-resources==5.10.0; python_version >= "3.7" and python_full_version < "
 jinja2==3.1.2; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.7"
 jsonschema==4.16.0; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.7"
 markupsafe==2.1.1; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.7"
-numpy==1.21.6; python_version >= "3.8" and python_version < "3.11" and (python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7") and (python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.7") and (python_version >= "3.8" and python_full_version < "3.9.7" and python_version < "3.10" or python_full_version > "3.9.7" and python_version >= "3.8" and python_version < "3.10")
+numpy==1.23.4; python_version >= "3.8" and python_full_version < "3.9.7" and python_version < "3.10" or python_full_version > "3.9.7" and python_version >= "3.8" and python_version < "3.10"
 packaging==21.3; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.6"
 pandas==1.5.1; python_version >= "3.8" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.8"
 pillow==9.2.0; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.7"
@@ -49,4 +49,4 @@ tzlocal==4.2; python_version >= "3.7" and python_full_version < "3.9.7" or pytho
 urllib3==1.26.12; python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" and (python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7") or python_full_version >= "3.6.0" and python_version < "4" and python_version >= "3.7" and (python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7")
 validators==0.20.0; python_version >= "3.7" and python_full_version < "3.9.7" or python_full_version > "3.9.7" and python_version >= "3.4"
 watchdog==2.1.9; python_version >= "3.7" and python_full_version < "3.9.7" and platform_system != "Darwin" or python_full_version > "3.9.7" and platform_system != "Darwin" and python_version >= "3.6"
-zipp==3.9.0; python_version >= "3.7" and python_full_version < "3.9.7" and python_version < "3.9" or python_full_version > "3.9.7" and python_version >= "3.7" and python_version < "3.9"
+zipp==3.10.0; python_version >= "3.7" and python_full_version < "3.9.7" and python_version < "3.9" or python_full_version > "3.9.7" and python_version >= "3.7" and python_version < "3.9"
